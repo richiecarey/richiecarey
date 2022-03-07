@@ -1,0 +1,21 @@
+.post {
+    h3 {
+        margin: 1rem 0 0.35rem 0;
+        color: var(--primary-color);
+        font-size: 1.4rem;
+    }
+    p {
+        &:first-of-type {
+            margin-top: 0.5rem;
+        }
+        font-family: "Libre Franklin";
+        font-size: 1.1rem;
+    }
+    pre {
+        margin: 1.75rem 0 2rem 0 !important ;
+        padding: 1rem 16px 1rem 16px;
+        color: #eee;
+        white-space: pre-wrap;
+        font-size: 0.9rem;
+    }
+}

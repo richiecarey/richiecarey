@@ -1,0 +1,237 @@
+/*
+https://color.adobe.com/Green%20Globe%20On%20Moss%20-%20Environmental%20Concept-color-theme-12819809
+*/
+:root {
+    --primary-color: #042940;
+    --secondary-color: #005c53;
+    --bg-color: #eee;
+    --callout-color: #dbf227;
+    --link-color: #042940;
+    --time-color: #808080;
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Libre Franklin";
+    src: url("../fonts/libre_franklin/LibreFranklin-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("../fonts/jetbrains_mono/JetBrainsMono-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body {
+    overflow-x: hidden;
+}
+body {
+    background: var(--bg-color);
+    color: #404040;
+    margin: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time {
+    font-family: "Roboto Medium";
+}
+a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+a:hover {
+    color: var(--primary-color);
+}
+
+pre,
+code {
+    font-family: "JetBrains Mono";
+}
+
+header {
+    background: var(--primary-color);
+}
+footer {
+    background: var(--bg-color);
+    color: #000;
+}
+header {
+    color: #fff;
+    opacity: 0.95;
+    width: 100%;
+    /* padding: 5rem; */
+}
+footer,
+main {
+    margin: 0 auto;
+    /* max-width: 1100px; */
+    padding: 1rem;
+}
+main {
+    background: #fff;
+}
+main h2 {
+    color: var(--primaryy-color);
+}
+header h1,
+header h2,
+header p {
+    margin: 0;
+}
+
+header h2 {
+    text-transform: lowercase;
+}
+
+header p {
+    margin-inline-start: 0.05rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 70px;
+    position: fixed;
+    /* padding: 5rem 0; */
+}
+header div.site {
+    /* border: 1px solid #fff; */
+    /* padding-left: 5rem; */
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    max-width: 800px;
+}
+header div.site p {
+    border-left: 1px solid #fff;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+}
+header div.contact {
+    /* border: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 2rem;
+}
+header div.contact > * {
+    font-size: 0.9rem;
+}
+/* @media screen and (min-width: 1100px) { */
+main {
+    column-gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 75px;
+    max-width: 700px;
+}
+/* } */
+
+main p {
+    max-width: 700px;
+}
+
+footer {
+    max-width: 700px;
+    /* color: #eee; */
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+section p {
+    margin-block-start: 0;
+}
+
+article:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+article,
+aside {
+    border: 1px solid #ccc;
+    padding: 0.5rem 0.75rem;
+}
+/* article {
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+article h2 {
+    margin: 1rem 0 0.25rem 0;
+}
+
+article p:first-of-type {
+    margin-top: 0.5rem;
+}
+
+pre {
+    padding: 1rem 0 1rem 1rem;
+}
+
+pre,
+code {
+    background: var(--primary-color);
+    color: #eee;
+    white-space: pre-wrap;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+p,
+ul,
+li {
+    font-family: "Libre Franklin";
+}
+
+p,
+ul,
+li {
+    font-size: 20px;
+}
+
+aside p,
+aside ul,
+aside li {
+    font-size: 16px;
+}
+
+time {
+    color: var(--time-color);
+    font-size: 0.9rem;
+}
