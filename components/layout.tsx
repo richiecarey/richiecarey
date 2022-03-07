@@ -20,7 +20,10 @@ const Layout = ({ children }: Props) => {
             <Meta />
             <Header />
             <main className={styles.main}>
-                <section className={styles.content}>{children}</section>
+                <section className={styles.content}>
+                    <h2>Code Snippets and more</h2>
+                    {children}
+                </section>
             </main>
             <Footer />
         </>
