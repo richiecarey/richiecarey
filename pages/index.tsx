@@ -23,7 +23,7 @@ const Index = ({ allPosts }: Props) => {
                 </title>
             </Head>
             {allPosts.map((post) => (
-                <Article post={post} />
+                <Article post={post} key={post.slug} />
             ))}
         </Layout>
     );
