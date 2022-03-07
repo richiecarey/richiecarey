@@ -12,11 +12,11 @@ type Props = {
 const PostHeader = ({ title, date, slug }: Props) => {
     return (
         <>
-            <Link as={`/posts/${slug}`} href="/posts/[slug]">
-                <a>
-                    <PostTitle>{title}</PostTitle>
-                </a>
-            </Link>
+            <PostTitle>
+                <Link as={`/posts/${slug}`} href="/posts/[slug]">
+                    <a>{title}</a>
+                </Link>
+            </PostTitle>
             <DateFormatter dateString={date} />
         </>
     );
