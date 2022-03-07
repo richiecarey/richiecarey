@@ -6,6 +6,7 @@ https://color.adobe.com/Green%20Globe%20On%20Moss%20-%20Environmental%20Concept-
     src: url("../public/fonts/roboto/Roboto-Medium.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Libre Franklin";
@@ -13,6 +14,7 @@ https://color.adobe.com/Green%20Globe%20On%20Moss%20-%20Environmental%20Concept-
         format("truetype");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "JetBrains Mono";
@@ -20,6 +22,7 @@ https://color.adobe.com/Green%20Globe%20On%20Moss%20-%20Environmental%20Concept-
         format("truetype");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 :root {
     --primary-color: #042940;
