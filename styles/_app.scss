@@ -25,7 +25,8 @@ https://color.adobe.com/Green%20Globe%20On%20Moss%20-%20Environmental%20Concept-
     font-display: fallback;
 }
 :root {
-    --primary-color: #042940;
+    // --primary-color: #042940;
+    --primary-color: #000;
     --secondary-color: #005c53;
     --bg-color: #ddd;
     --callout-color: #dbf227;
@@ -49,8 +50,16 @@ pre {
     font-family: "JetBrains Mono";
 }
 body {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(4, 41, 64, 0.5) 90%), url("/background.jpg");
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    //background-color: #000000;
+    overflow: hidden;
+
     overflow-x: hidden;
-    background: var(--bg-color);
+    // background: var(--bg-color);
     color: #404040;
     margin: 0;
     overflow-wrap: break-word;
