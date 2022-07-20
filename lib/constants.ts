@@ -1,5 +1,0 @@
-export const NAME = 'Richie Carey'
-export const TITLE = 'Web Development'
-export const LINK_TEXT = 'GitHub'
-export const LINK_URL = 'https://github.com/richiecarey'
-export const HOME_OG_IMAGE_URL = 'https://avatars.githubusercontent.com/u/8711204?v=4'
